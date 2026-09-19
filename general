@@ -1,0 +1,33 @@
+1. /strata/geometry/setSizeYZ 1 m       Dimensiones laterales de la multicapa
+
+2. /strata/geometry/layerNumber 1       Número de las capas
+
+3. /strata/geometry/layerThickness 0 0.1 mm     espesor de las capas
+
+4. /strata/geometry/layerMaterial 0 G4_Fe	composicion de las capas
+
+5. /strata/physics/addPhysics standard		modelo fisico
+
+6. /run/initialize			inicializacion de la geometria
+
+7. /gun/particle ion			tipo de particula	
+
+8. /gun/ion 6 12			carga y masa		
+
+9. /gun/energy 1200 MeV		
+
+10./run/beamOn 1000			numero de particulas y run
+
+
+CTRL+V
+
+/strata/geometry/setSizeYZ 1 m
+/strata/geometry/layerNumber 1
+/strata/geometry/layerThickness 0 0.1 mm
+/strata/geometry/layerMaterial 0 G4_Fe
+/strata/physics/addPhysics standard
+/run/initialize
+/gun/particle ion
+/gun/ion 6 12
+/gun/energy 1200 MeV
+/run/beamOn 1000
